@@ -1,0 +1,91 @@
+.sidebar,
+.info,
+.test,
+.one,
+.two,
+.three {
+
+    border: solid red;
+
+}
+
+
+.heading {
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    justify-content: center;
+    font-size: 60px;
+}
+
+.submain {
+    font-family: fantasy;
+    border: solid red;
+    display: flex;
+    align-items: stretch;
+    height: 1000px;
+    margin: 20px;
+}
+
+.sidebar{
+    display: flex;
+    margin-right: 20px;
+    flex-direction: column;
+    flex: 1;
+    gap: 8px;
+}
+
+.info {
+    width: 900px;
+    flex: 6;
+}
+
+.side_heading{
+    display: flex;
+    background-color: black;
+    color: white;
+    border: solid red;
+    font-size: 20px;
+    justify-content: center;
+    padding: 10px 10px;
+}
+
+.recipes{
+    display: flex;
+    justify-content: flex-start;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    list-style-type: none;
+    border: solid red;
+    padding: 0;
+    gap: 8px;
+}
+
+li{
+     margin: 10px; 
+}
+
+.test{
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+    gap: 6px;
+}
+
+.one,
+.two,
+.three {
+display: flex;
+flex: 1;
+
+}
+
+
+
+
